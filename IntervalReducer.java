@@ -59,6 +59,9 @@ class Main
             stack.add(newTop);
           }
         }
-      System.out.println(stack);
+      System.out.println("Reduced Intervals: ");
+      for(int i = 0; i < stack.size(); i++) {
+        System.out.println(stack.get(i));
+      }
     }
 }
